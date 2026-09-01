@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "games": [
+    {
+      "id": "fate-dice",
+      "name": "Fate / Fudge Dice",
+      "shortName": "Fate",
+      "author": "draugvar",
+      "description": "Four Fudge/Fate dice with plus, blank and minus faces, built from SF Symbols.",
+      "version": 1,
+      "file": "games/fate-dice.polydicegame"
+    },
+    {
+      "id": "geometric-runes",
+      "name": "Geometric Runes",
+      "shortName": "Runes",
+      "author": "draugvar",
+      "description": "Six original geometric rune glyphs embedded as base64 images; shows the embedded-image workflow.",
+      "version": 1,
+      "file": "games/geometric-runes.polydicegame"
+    }
+  ]
+}

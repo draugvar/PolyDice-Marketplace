@@ -1,0 +1,90 @@
+{
+  "id": "geometric-runes",
+  "name": "Geometric Runes",
+  "shortName": "Runes",
+  "author": "draugvar",
+  "version": 1,
+  "isGeneric": false,
+  "diceType": "d6",
+  "dieShape": {
+    "type": "roundedPolygon",
+    "sides": 6,
+    "rotation": 0,
+    "cornerRadius": 16
+  },
+  "dieColor": {
+    "r": 0.16,
+    "g": 0.11,
+    "b": 0.24
+  },
+  "accentColor": {
+    "r": 0.96,
+    "g": 0.8,
+    "b": 0.36
+  },
+  "faces": [
+    {
+      "id": "circle",
+      "name": "Circle Rune",
+      "weight": 1,
+      "symbol": {
+        "type": "image",
+        "name": "circle"
+      }
+    },
+    {
+      "id": "square",
+      "name": "Square Rune",
+      "weight": 1,
+      "symbol": {
+        "type": "image",
+        "name": "square"
+      }
+    },
+    {
+      "id": "triangle",
+      "name": "Triangle Rune",
+      "weight": 1,
+      "symbol": {
+        "type": "image",
+        "name": "triangle"
+      }
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond Rune",
+      "weight": 1,
+      "symbol": {
+        "type": "image",
+        "name": "diamond"
+      }
+    },
+    {
+      "id": "cross",
+      "name": "Cross Rune",
+      "weight": 1,
+      "symbol": {
+        "type": "image",
+        "name": "cross"
+      }
+    },
+    {
+      "id": "rings",
+      "name": "Rings Rune",
+      "weight": 1,
+      "symbol": {
+        "type": "image",
+        "name": "rings"
+      }
+    }
+  ],
+  "images": {
+    "circle": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABlElEQVR42u3dSw7CMBAE0dz/quyQWIc7EIV4XK+k7O3uigPiM8cBAAAAAAAAAAAAAAAAAAAwhM/7df56SS9WOCEUTgjFE0HxRFA8ERRPBMUTQfkk2KP8aWtQ/EJhE2FI+dYaLd+6o+XbQ7R8+4mWb29hAexP+fapfPsVhn03grB3AciguHmvgTbLQfnxPJQfzsTdH89F+eFs3P3xfJQfzsjdH89J+fGsCEAA5VfzcvfHMyMAAZRfzo0A4dwc//HsCEAA5ZfzIwABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAABJsnx0BZOcxUM+NAATwGChnRgCZeQzU83IKxLMiAAH8OrieEwHiGTkF5OMUqGfjFJCLU6CeiVNAHiSo5+DfwmVgXoCBESaGGBtjZpAXwqaGeStsbqDBkSaHGh9rdrBPRE0P96WYywE+FeLUdW8rwb8CnbTWpAR3BLzy2ohwQ+grrIEEm11aDUugzagI2ouKoK2oCNqJiqCNqAjSjwkh3ZgQ0gMAAAAAAAAAAAAAAAAADOELQ4YSPtJMx6MAAAAASUVORK5CYII=",
+    "square": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAA3klEQVR42u3dsQ0AMQgEQfpv1RmSY7sBEhISZqQvYM/kHwEAAAAAAAAAAAAAAAAAAAAAAABQunnets+rNw9AjwPQ4wD0OAA9DkCPA9DjAPQ4AD0OQI8D0OMA9DgAPQ5AjwPQ4wD0OAA9DkCPwfQYTI/B9BhMj8H0GEyPwfQYTI/B9BhMj8H0GEyPwfQYTI/B9BhMj8H0GEyPwfQYTI/B9BhMj8H0GEyPwRyAwRyAwRyAwRyAwRyAwRyAwRyAwRyAwRyAwRzA2GD+GQQAAAAAAAAAAAAAAAAAAAAAAMAKH+EsgfJEF/xxAAAAAElFTkSuQmCC",
+    "triangle": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABF0lEQVR42u3dMQqEQBBFwb7/Vc2EifUIghgMviow22R/Pww22RkAAAAAAAAAAAAAAAAAAIAtrfO4nh4rhY8vAgEIoH58EQhAAPXji0AAAqgfXwQCEEDhRx8RCEAA1eO//Tw/Or4IBCCA+vFFIAAB1I8vAgEIoH58EQhAAPXji8DxRSAAAeSPLwIBCKB+fBEIQAD144tAAAKoH18EAhBA/fgicHwRCEAA+eOLwNACMLIIDCwA44rAsAIwqggEIABjisCIIhCAAPLjiUAAAqiPJgIBCKA+lggEIID6SCIwjggEIID8KCIQgADqY4hAAAKoj5CPQADh7+8VGN9BAOEdvvj3rtozAAAAAAAAAAAAAAAAAAAAAACU3VDJLYAWCK+MAAAAAElFTkSuQmCC",
+    "diamond": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABOElEQVR42u3YsQ3AIBRDQfZflS4SNYyQFvTupAzwbRdJxgAAAAAAAAAAAAAAAAC43vrm/nukFC7fCJRvBMo3AuUbQeeFzwi87RuBTz0j8J1vBH7yGEG8fCNQvhEo3wiUbwTKNwLlG4HyjUD5RqB8I1C+EQjZCIRrBEI1AmEagRCNQHhGIDQjEJYRCMkIhONOobhXGO4WgvsdLwdHy0P5clF+PB/lh3NSvryMQE5GIB8jkIsRyMMI5OB498dDUH44DOWHQ1F+OBzlh0NSfjgs5YdDU344POWHQ1R+OEzlh0NVfjhc5YdDVn44bOWHR6D88AiUHx6B8sMjUH54BMoPj0D54REoPzwC5YdHoPzwCJQfHoHywyNQfngEyo+PQPlGoHwjUL4RKN8IlA8AAAAAAAAAAAAAAMATDnXR69by9FZhAAAAAElFTkSuQmCC",
+    "cross": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABYklEQVR42u3YQQrCQBREwbn/Vd0JWUdcBEIIqIOreVU3+N2NZBwDAAAAAAAAAAAAAAAA4Gvb87FLIZzH+2AjCGdxHF0fQTaH8+HVEaQzuB5fC6B+/20AlRDKt38MYfUgqnf/FMSqYRRvng5jtUBq9wpF+cJRfjwk5YfDUn44NOWHw1N+OETlh8NUfjhU5YfDVX44ZOWHw1Z+eATKD49A+eERKD88AuWHR6D88AiUHx6B8sMjUH54BMoPj0D54REoPzwC5YdHoPz4CJRvBMo3AuUbgfKNQPl+AYzAN4AReAUYgfKNIPLBZwS+9o3AU88IvPONwJ88RhAv3wiUbwTKNwLlG4HyjUD5RqB8I1C+ESjfCJRvBEI2AuEagVCNQJhGIEQjEJ4RCM0IhGUEQjIC4bhTKO79YyBuDg/A3eEBuD08APeHA/AKCg/A/yDhAQxGdgCqlwcAAAAAAAAAAAAAAACTXmse6IHe1KPBAAAAAElFTkSuQmCC",
+    "rings": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAB8UlEQVR42u3dQU7EMBBE0bn/VWeHxJq5AxC7uut9iS24u74dkTjx6wUAAAAAAAAAAAAAAAAAADCE76/3z29/dK8scEIInBCCJ4LgiSB4IgieCIIngvBJsCP8aWMQfFCziTAkfGMtDd+4S8NXQ2n46ikNX23FAqhP+OoUvno1Q90djVC7BuhBY/HGsEyAm0Un3q6tk2DD07tb4zP7A4K/PU6zPyj8G+M1+4OCvzVusz8w/JPjN/tDwz9Zg9m/UIC1q0Dy7L/xewkQEH7a3zjVr/rZP+H+/apV4Mli0m/aPF2X5X/AiyH1l4GE2T/xX9sVAmxfJl0GCECA5OW/QXICEIAAtxtDAAIQgAAEIAABCEAAAhCAAARwH4AABCCAZwGeBRCgfFOI/QDF+wGeLsSOoCUC2BO4dPk/UYxdwS4D3guwCngzqFqAv4bl3cAQAbwdvPgbAb4PUDr7T9vtCyHlq8ANEab1Zv0qcFKCiX2pWQWeFGF6T2pWgf8WYVM/KiUwhmEC+Fq4T8Y7L8AMcGIICZwZRAKnhpHAuYEEcHIoCZwdTAKnh5MgqolTx71WgrR3A4V/qbETni5K+2CzT24LF3y4BFO3j5FA+EQQPBEEj2wRpFMqgjRKRdD9MiF0t0wI3QMAAAAAAAAAAAAAAAAADOEDhifRP4g2XWMAAAAASUVORK5CYII="
+  },
+  "diceCount": 2
+}

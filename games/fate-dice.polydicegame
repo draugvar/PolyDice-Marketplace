@@ -1,0 +1,38 @@
+{
+  "id": "fate-dice",
+  "name": "Fate / Fudge Dice",
+  "shortName": "Fate",
+  "author": "draugvar",
+  "version": 1,
+  "isGeneric": false,
+  "diceType": "d3",
+  "dieShape": {
+    "type": "roundedPolygon",
+    "sides": 4,
+    "rotation": 0,
+    "cornerRadius": 18
+  },
+  "dieColor": { "r": 0.13, "g": 0.13, "b": 0.20 },
+  "accentColor": { "r": 0.35, "g": 0.80, "b": 0.98 },
+  "faces": [
+    {
+      "id": "plus",
+      "name": "Plus",
+      "weight": 1,
+      "symbol": { "type": "sfSymbol", "name": "plus" }
+    },
+    {
+      "id": "blank",
+      "name": "Blank",
+      "weight": 1,
+      "symbol": { "type": "builtin", "name": "blank" }
+    },
+    {
+      "id": "minus",
+      "name": "Minus",
+      "weight": 1,
+      "symbol": { "type": "sfSymbol", "name": "minus" }
+    }
+  ],
+  "diceCount": 4
+}

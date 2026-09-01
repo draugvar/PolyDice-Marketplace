@@ -1,0 +1,22 @@
+{
+  "id": "minimal-example",
+  "name": "Minimal Example",
+  "shortName": "Example",
+  "author": "your-github-username",
+  "version": 1,
+  "isGeneric": false,
+  "diceType": "d6",
+  "dieShape": {
+    "type": "roundedPolygon",
+    "sides": 6,
+    "rotation": 0,
+    "cornerRadius": 16
+  },
+  "dieColor": { "r": 0.13, "g": 0.13, "b": 0.20 },
+  "accentColor": { "r": 1.0, "g": 1.0, "b": 1.0 },
+  "faces": [
+    { "id": "plus", "name": "Plus", "weight": 1, "symbol": { "type": "sfSymbol", "name": "plus" } },
+    { "id": "minus", "name": "Minus", "weight": 1, "symbol": { "type": "sfSymbol", "name": "minus" } }
+  ],
+  "diceCount": 2
+}
