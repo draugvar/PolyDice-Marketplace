@@ -21,4 +21,15 @@ Dice face icons in the games below come from [game-icons.net](https://game-icons
 | Storm | [lightning-storm](https://game-icons.net/1x1/lorc/lightning-storm.html) | Lorc |
 | Frost | [crystal-cluster](https://game-icons.net/1x1/lorc/crystal-cluster.html) | Lorc |
 
+## Zombie Horde Dice
+
+| Face | Icon | Author |
+|------|------|--------|
+| Zombie (1) | [shambling-zombie](https://game-icons.net/1x1/delapouite/shambling-zombie.html) | Delapouite |
+| 2 | [dice-six-faces-two](https://game-icons.net/1x1/delapouite/dice-six-faces-two.html) | Delapouite |
+| 3 | [dice-six-faces-three](https://game-icons.net/1x1/delapouite/dice-six-faces-three.html) | Delapouite |
+| 4 | [dice-six-faces-four](https://game-icons.net/1x1/delapouite/dice-six-faces-four.html) | Delapouite |
+| 5 | [dice-six-faces-five](https://game-icons.net/1x1/delapouite/dice-six-faces-five.html) | Delapouite |
+| Dynamite (6) | [dynamite](https://game-icons.net/1x1/delapouite/dynamite.html) | Delapouite |
+
 All icons were rendered at 128×128 with the background layer removed and are embedded in the game files as base64 PNG. The icons are used unmodified except for background removal.

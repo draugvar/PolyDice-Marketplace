@@ -13,6 +13,7 @@ PolyDice users can open **Settings → Browse marketplace** inside the app and i
 | [Fate / Fudge Dice](games/fate-dice.polydicegame) | draugvar | Four Fudge/Fate dice with plus, blank and minus faces, built from SF Symbols. |
 | [Geometric Runes](games/geometric-runes.polydicegame) | draugvar | Six original geometric rune glyphs embedded as base64 images; shows the embedded-image workflow. |
 | [Playtest Dice](games/playtest-dice.polydicegame) | draugvar | Weighted resolution die for designers: 50% failure, 33% success, 17% critical. |
+| [Zombie Horde Dice](games/zombie-horde-dice.polydicegame) | draugvar | Zombie survival combat dice: shambling zombie on the 1, dynamite on the 6, pips for 2-5. |
 
 ## How it works
 

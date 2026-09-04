@@ -45,6 +45,15 @@
       "description": "Weighted resolution die for game designers: 50% failure, 33% success, 17% critical. Handy for tabletop prototypes and probability checks.",
       "version": 1,
       "file": "games/playtest-dice.polydicegame"
+    },
+    {
+      "id": "zombie-horde-dice",
+      "name": "Zombie Horde Dice",
+      "shortName": "Zombies",
+      "author": "draugvar",
+      "description": "Classic zombie survival combat dice: a shambling zombie on the 1, dynamite on the 6 and pips for 2-5. Roll your dice and count results against the weapon's accuracy.",
+      "version": 1,
+      "file": "games/zombie-horde-dice.polydicegame"
     }
   ]
 }
