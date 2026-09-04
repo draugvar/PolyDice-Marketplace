@@ -9,10 +9,14 @@ Thanks for adding a game to the PolyDice marketplace! The whole process is one p
 
 ## Content rules
 
-1. **Original or licensed art only.** You must own the artwork or have permission to distribute it. No scans, photos or rip-offs of commercial dice (Zombicide, HeroQuest, etc.).
+1. **Original or licensed art only.** You must own the artwork or have permission to distribute it. No scans, photos or rip-offs of commercial dice (Zombicide, HeroQuest, etc.). Free icon sets with permissive licenses (e.g. [game-icons.net](https://game-icons.net), CC BY 3.0) are fine — but check the attribution requirements and add your credits to [ATTRIBUTION.md](ATTRIBUTION.md).
 2. **No trademarks in game names.** Use a descriptive name ("Fate / Fudge Dice"), not a product name someone else owns.
 3. **English metadata.** `name`, `shortName` and `description` in index.json, and `name` fields in the game file, should be in English.
 4. **Keep files small.** Raw file ≤ 15 MB, embedded images decoded ≤ 10 MB in total. Prefer SF Symbols or simple PNGs.
+
+## Content license
+
+By contributing a game you confirm that you own the content or have the right to distribute it, and you agree to license the game file and its artwork under **CC BY 4.0**. The `author` field in index.json stays as the attribution shown to everyone. Third-party assets you embed keep their own license — just make sure it permits redistribution and add the required credit to [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ## Step-by-step
 

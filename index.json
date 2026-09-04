@@ -2,6 +2,24 @@
   "schema": 1,
   "games": [
     {
+      "id": "dungeon-combat-die",
+      "name": "Dungeon Combat Die",
+      "shortName": "Combat",
+      "author": "draugvar",
+      "description": "A six-sided combat die for dungeon crawls: three skulls, two shields and one critical bolt. Inspired by classic dungeon-crawl combat dice, built from SF Symbols.",
+      "version": 1,
+      "file": "games/dungeon-combat-die.polydicegame"
+    },
+    {
+      "id": "elemental-dice",
+      "name": "Elemental Dice",
+      "shortName": "Elemental",
+      "author": "draugvar",
+      "description": "Six elemental faces - fire, water, air, earth, storm and frost - for resolution tables and elemental challenges.",
+      "version": 1,
+      "file": "games/elemental-dice.polydicegame"
+    },
+    {
       "id": "fate-dice",
       "name": "Fate / Fudge Dice",
       "shortName": "Fate",
@@ -18,6 +36,15 @@
       "description": "Six original geometric rune glyphs embedded as base64 images; shows the embedded-image workflow.",
       "version": 1,
       "file": "games/geometric-runes.polydicegame"
+    },
+    {
+      "id": "playtest-dice",
+      "name": "Playtest Dice",
+      "shortName": "Playtest",
+      "author": "draugvar",
+      "description": "Weighted resolution die for game designers: 50% failure, 33% success, 17% critical. Handy for tabletop prototypes and probability checks.",
+      "version": 1,
+      "file": "games/playtest-dice.polydicegame"
     }
   ]
 }

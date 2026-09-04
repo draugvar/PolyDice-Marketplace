@@ -1,0 +1,23 @@
+{
+  "id": "playtest-dice",
+  "name": "Playtest Dice",
+  "shortName": "Playtest",
+  "author": "draugvar",
+  "version": 1,
+  "isGeneric": false,
+  "diceType": "d3",
+  "dieShape": {
+    "type": "roundedPolygon",
+    "sides": 3,
+    "rotation": 0,
+    "cornerRadius": 14
+  },
+  "dieColor": { "r": 0.12, "g": 0.16, "b": 0.14 },
+  "accentColor": { "r": 0.45, "g": 0.90, "b": 0.60 },
+  "faces": [
+    { "id": "fail", "name": "Failure", "weight": 3, "symbol": { "type": "sfSymbol", "name": "xmark" } },
+    { "id": "success", "name": "Success", "weight": 2, "symbol": { "type": "sfSymbol", "name": "checkmark" } },
+    { "id": "crit", "name": "Critical", "weight": 1, "symbol": { "type": "sfSymbol", "name": "star.fill" } }
+  ],
+  "diceCount": 4
+}

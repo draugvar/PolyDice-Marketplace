@@ -8,8 +8,11 @@ PolyDice users can open **Settings → Browse marketplace** inside the app and i
 
 | Game | Author | Description |
 |------|--------|-------------|
+| [Dungeon Combat Die](games/dungeon-combat-die.polydicegame) | draugvar | Six-sided combat die for dungeon crawls: three skulls, two shields and one critical bolt. |
+| [Elemental Dice](games/elemental-dice.polydicegame) | draugvar | Six elemental faces — fire, water, air, earth, storm and frost. |
 | [Fate / Fudge Dice](games/fate-dice.polydicegame) | draugvar | Four Fudge/Fate dice with plus, blank and minus faces, built from SF Symbols. |
 | [Geometric Runes](games/geometric-runes.polydicegame) | draugvar | Six original geometric rune glyphs embedded as base64 images; shows the embedded-image workflow. |
+| [Playtest Dice](games/playtest-dice.polydicegame) | draugvar | Weighted resolution die for designers: 50% failure, 33% success, 17% critical. |
 
 ## How it works
 
@@ -31,4 +34,4 @@ If that prints `OK`, open a pull request.
 
 ## License
 
-The repo tooling and documentation are MIT-licensed (see [LICENSE](LICENSE)). Each game's content remains the property of its author, as declared in the game file's `author` field; by submitting a game you confirm you have the right to distribute it (see the content rules in [CONTRIBUTING.md](CONTRIBUTING.md)).
+The repo tooling and documentation are MIT-licensed (see [LICENSE](LICENSE)). Game files and their artwork are licensed **CC BY 4.0** by their authors (the `author` field is the attribution); third-party embedded assets keep their own license — credits in [ATTRIBUTION.md](ATTRIBUTION.md). Details in [CONTRIBUTING.md](CONTRIBUTING.md).
